@@ -1,0 +1,196 @@
+    div#cabeça {
+        position: absolute;
+        color: rgb(232, 232, 232);
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        text-align: center;
+        font-size: 25px;
+        font-family: arial;
+        height: 145px;
+        margin: -8px;
+        margin-top: 0px;
+        padding: 1px;
+        margin-bottom: 0px;
+    }
+
+    div#cabeça h1 {
+        animation-duration: 4s;
+        animation-name: fadein;
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 100%;
+        }
+    }
+
+    div#imgcabeça{
+        background-color: rgb(56, 56, 56);
+        position: absolute;
+        text-align: center;
+        top: 8px;
+        right: 0px;
+        left: 0px;
+        height: 147px;
+        width: auto;
+        margin: -8px;
+        margin-bottom: 0px;
+    }
+
+    img#circuito1 {
+        position: absolute;
+        height: auto;
+        width: 144px;
+        top: -100px;
+        left: 30px;
+        transform: rotate(180deg);
+        opacity: 60%;
+    }
+
+    img#circuito2 {
+        position: absolute;
+        height: 155px;
+        width: auto;
+        top: -3px;
+        right: 300px;
+        opacity: 60%;
+    }
+
+    img#circuito3 {
+        position: absolute;
+        transform: rotate(90deg);
+        width: 320px;
+        height: auto;
+        top: -85px;
+        right: -7px;
+    }
+
+    img#circuito4 {
+        position: absolute;
+        transform: rotate(270deg);
+        height: 160px;
+        width: auto;
+        top: -7px;
+        left: 250px;
+        opacity: 60%;
+    }
+
+    img#logo {
+        position: relative;
+        height: 100px;
+        width: auto;
+        top: 17px;
+    }
+
+    div#menu {
+        background-color: rgb(121, 121, 121);
+        position: absolute;
+        top: 147px;
+        right: 0px;
+        left: 0px;
+        text-align: center;
+        margin: 0px;
+        height: 30px;
+        padding: 1px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    div#menu ul {
+        position: absolute;
+        list-style: none;
+        text-align: center;
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 20px;
+        font-family: arial;
+        right: 20px;
+        left: 20px;
+    }
+
+    div#menu li {
+        display: inline-block;
+        background-color: rgb(121, 121, 121);
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        transition: background-color 0.5s;
+    }
+
+    div#menu li:hover {
+        background-color: rgb(97, 97, 97);
+    }
+
+    div#menu a {
+        color: rgb(232, 232, 232);
+        text-decoration: none;
+    }
+
+    h3 {
+        padding-bottom: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 38px;
+    }
+
+    section#info {
+        margin: 200px;
+        margin-top: 250px;
+        margin-bottom: 70px;
+    }
+
+    section#info p {
+        text-indent: 40px;
+        font-family: arial;
+        font-size: 17px;
+    }
+
+    section#info img {
+        position: relative;
+        left: 200px;
+    }
+
+    section#rodape {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        height: 154px;
+        margin: -8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    section#rodape h6 {
+        padding-top: 37px;
+        margin-bottom: 20px;
+        font-family: arial;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    section#rodape p {
+        font-family: arial;
+        font-size: 17px;
+        margin: 0px;
+    }
+
+    div#insta img {
+        height: 150px;
+        width: auto;
+    }
+
+    div#insta {
+        background-color: rgb(121, 121, 121);
+        position: sticky;
+        top: 100vh;
+        text-align: center;
+        margin: -8px;
+    }
